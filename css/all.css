@@ -294,6 +294,7 @@ section[data-class=scoreboard].scoreboard a {
   border-radius: 50px;
   text-decoration: none;
   padding: 10px 20px;
+  box-shadow: 0px 4px 34px 0px #00000015;
 }
 @media (min-width: 1024px) {
   section[data-class=scoreboard].scoreboard {
@@ -321,7 +322,6 @@ section[data-class=scoreboard].scoreboard a {
     width: max-content;
     font-size: 0.9em;
     transition: all 0.5s ease;
-    box-shadow: 0px 4px 34px 0px #00000015;
   }
   section[data-class=scoreboard].scoreboard a:hover {
     background-color: #9E181B;
